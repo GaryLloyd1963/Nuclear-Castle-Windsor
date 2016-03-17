@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuclear", "Castle Windsor\Nuclear.csproj", "{F38487C1-DAF7-492E-9A84-D64568E3D4E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nuclear.Tests.Unit", "Nuclear.Tests.Unit\Nuclear.Tests.Unit.csproj", "{554EAECF-40DB-493F-9319-6279560880D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F38487C1-DAF7-492E-9A84-D64568E3D4E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F38487C1-DAF7-492E-9A84-D64568E3D4E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F38487C1-DAF7-492E-9A84-D64568E3D4E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F38487C1-DAF7-492E-9A84-D64568E3D4E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{554EAECF-40DB-493F-9319-6279560880D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{554EAECF-40DB-493F-9319-6279560880D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{554EAECF-40DB-493F-9319-6279560880D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{554EAECF-40DB-493F-9319-6279560880D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
