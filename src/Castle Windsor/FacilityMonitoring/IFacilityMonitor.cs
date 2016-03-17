@@ -2,6 +2,6 @@
 {
     public interface IFacilityMonitor
     {
-        void CheckAllFacilities();
+        void ReportOnAllFacilities();
     }
 }

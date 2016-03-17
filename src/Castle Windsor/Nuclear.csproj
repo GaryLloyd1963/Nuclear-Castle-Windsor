@@ -50,14 +50,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Monitor\FacilityMonitor.cs" />
-    <Compile Include="Query\FacilityStatusQuery.cs" />
-    <Compile Include="Report\FacilityReport.cs" />
-    <Compile Include="Monitor\IFacilityMonitor.cs" />
-    <Compile Include="Query\IFacilityStatusQuery.cs" />
+    <Compile Include="FacilityMonitoring\FacilityMonitor.cs" />
+    <Compile Include="FacilityStatusQuery\FacilityStatusQuery.cs" />
+    <Compile Include="FacilityStatusReporting\FacilityReport.cs" />
+    <Compile Include="FacilityMonitoring\IFacilityMonitor.cs" />
+    <Compile Include="FacilityStatusQuery\IFacilityStatusQuery.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Report\IFacilityReport.cs" />
+    <Compile Include="FacilityStatusReporting\IFacilityReport.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
