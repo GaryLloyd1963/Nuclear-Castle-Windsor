@@ -1,4 +1,4 @@
-namespace Nuclear
+namespace Nuclear.FacilityStatusReporting
 {
     public interface IFacilityReport
     {

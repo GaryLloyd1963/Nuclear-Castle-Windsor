@@ -1,4 +1,4 @@
-﻿namespace Nuclear
+﻿namespace Nuclear.FacilityStatusQuery
 {
     public class FacilityStatusQuery : IFacilityStatusQuery
     {

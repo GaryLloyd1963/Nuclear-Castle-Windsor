@@ -1,6 +1,9 @@
 ﻿using System;
 using Castle.MicroKernel.Registration;
 using Castle.Windsor;
+using Nuclear.FacilityMonitoring;
+using Nuclear.FacilityStatusQuery;
+using Nuclear.FacilityStatusReporting;
 
 namespace Nuclear
 {
@@ -12,7 +15,7 @@ namespace Nuclear
 
             var container = new WindsorContainer();
             container.Register(
-                Component.For<IFacilityStatusQuery>().ImplementedBy<FacilityStatusQuery>().LifestyleTransient());
+                Component.For<IFacilityStatusQuery>().ImplementedBy<FacilityStatusQuery.FacilityStatusQuery>().LifestyleTransient());
             container.Register(
                 Component.For<IFacilityReport>().ImplementedBy<FacilityReport>().LifestyleTransient());
             container.Register(

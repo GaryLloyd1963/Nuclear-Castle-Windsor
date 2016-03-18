@@ -1,12 +1,13 @@
-﻿using System;
+﻿using Nuclear.FacilityStatusQuery;
+using Nuclear.FacilityStatusReporting;
 
-namespace Nuclear
+namespace Nuclear.FacilityMonitoring
 {
     public class FacilityMonitor : IFacilityMonitor
     {
         private readonly string[] _facilitieCodeNames;
-        private IFacilityStatusQuery _facilityStatusQuery;
-        private IFacilityReport _facilityReport;
+        private readonly IFacilityStatusQuery _facilityStatusQuery;
+        private readonly IFacilityReport _facilityReport;
 
         public FacilityMonitor(string[] facilitieCodeNames, IFacilityStatusQuery facilityStatusQuery, IFacilityReport facilityReport)
         {
