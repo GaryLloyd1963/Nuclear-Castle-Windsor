@@ -56,7 +56,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FacilityMonitorTests.cs" />
+    <Compile Include="FacilityMonitorNormalFacilityTests.cs" />
+    <Compile Include="FacilityMonitorOfflineFacilityTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

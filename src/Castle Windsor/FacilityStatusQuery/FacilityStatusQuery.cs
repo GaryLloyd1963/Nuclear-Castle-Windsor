@@ -4,7 +4,7 @@
     {
         public FacilityStatus GetMainFacilityStatus(string facilityCodeName)
         {
-            return FacilityStatus.OperatingwithinNormalLimits;
+            return FacilityStatus.OperatingWithinNormalLimits;
         }
 
         public string GetDetailedFacilityStatus(string facilityCodeName)

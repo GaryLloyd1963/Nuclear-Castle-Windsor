@@ -3,7 +3,7 @@
     public enum FacilityStatus
     {
         Offline,
-        OperatingwithinNormalLimits,
+        OperatingWithinNormalLimits,
         ReactorCoreAboveNormalLimit,
         ReactorCoreCritical
     }

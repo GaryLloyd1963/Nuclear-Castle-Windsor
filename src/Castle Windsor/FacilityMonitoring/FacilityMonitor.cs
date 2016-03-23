@@ -27,7 +27,7 @@ namespace Nuclear.FacilityMonitoring
                     case FacilityStatus.Offline:
                         _facilityReport.ReportOfflineStatus(facilityCodeName);
                         break;
-                    case FacilityStatus.OperatingwithinNormalLimits:
+                    case FacilityStatus.OperatingWithinNormalLimits:
                         _facilityReport.ReportNormalOperation(facilityCodeName, facilityStatus.ToString(), facilityStatusDetails);
                         break;
                     case FacilityStatus.ReactorCoreAboveNormalLimit:
