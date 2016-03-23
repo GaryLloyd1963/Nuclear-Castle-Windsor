@@ -57,6 +57,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FacilityMonitorNormalFacilityTests.cs" />
+    <Compile Include="FacilityMonitorReactorMeltdownTests.cs" />
+    <Compile Include="FacilityMonitorReactorCoreOverHeatTests.cs" />
     <Compile Include="FacilityMonitorOfflineFacilityTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Moq;
+﻿using Moq;
 using Nuclear.FacilityMonitoring;
 using Nuclear.FacilityStatusQuery;
 using Nuclear.FacilityStatusReporting;
@@ -19,7 +14,7 @@ namespace Nuclear.Tests.Unit
         private Mock<IFacilityReport> _mockFacilityReport;
 
         [OneTimeSetUp]
-        public void GivenaFaciltyMonitorAndAnOfflineFacility()
+        public void GivenaFaciltyMonitorAndOfflineFacilities()
         {
             _mockFacilityStatusQuery = new Mock<IFacilityStatusQuery>();
             _mockFacilityStatusQuery.Setup(x => x.GetMainFacilityStatus(It.IsAny<string>()))
